@@ -43,6 +43,6 @@ if ingredient_list:
         st.subheader(fruit_chosen + ' Nutrition info ')
         fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon" + fruit_chosen )
         # st.text(fruityvice_response.json())
-        st_df=st.dataframe(data=fruityvice_response.json(),use_container_width=True)
+        # st_df=st.dataframe(data=fruityvice_response.json(),use_container_width=True)
 
  
